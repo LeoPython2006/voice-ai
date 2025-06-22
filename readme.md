@@ -5,7 +5,12 @@
     npm install
     ```
 
-3. Run the application:
+3. (Optional) train the FAQ recommender:
+    ```sh
+    npm run train
+    ```
+
+4. Run the application:
     ```sh
     npm run dev
     ```
