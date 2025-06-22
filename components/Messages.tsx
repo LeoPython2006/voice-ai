@@ -26,6 +26,15 @@ const Messages = forwardRef<
           }
         }
       });
+      const code = detectLanguage(last.message.content);
+      if (code && code !== lastLang.current) {
+        lastLang.current = code;
+        if (code === "rus") {
+          sendSessionSettings({ system_prompt: "Продолжай диалог на русском языке." });
+        } else {
+          sendSessionSettings({ system_prompt: "Continue the conversation in the language used by the user." });
+        }
+      }
     }
   }, [messages, sendSessionSettings]);
 
