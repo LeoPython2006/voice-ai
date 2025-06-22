@@ -1,0 +1,403 @@
+[
+{
+"query": "Как поделиться приложением с друзьями?",
+"response": "Нажмите [Share with friends](feature:share_app) в разделе [Support NamazApp](section:support_links)."
+},
+{
+"query": "Как оценить приложение в App Store?",
+"response": "Перейдите в [Support NamazApp](section:support_links) и выберите [Rate us in AppStore](feature:rate_app)."
+},
+{
+"query": "Как задать вопрос через WhatsApp?",
+"response": "Откройте [Customer Support](section:ask_question) и нажмите [Ask a question in WhatsApp](link:whatsapp_developer)."
+},
+{
+"query": "Как включить тёмную тему?",
+"response": "В [App settings](section:app_settings) включите [Allow dark mode](setting:dark_mode)."
+},
+{
+"query": "Как сменить язык приложения?",
+"response": "Перейдите в [App settings](section:app_settings) → [App Language](setting:language) и выберите предпочитаемый язык."
+},
+{
+"query": "Как настроить, какие молитвы отображаются на главной странице?",
+"response": "В [App settings](section:app_settings) → [Prayers displayed on the main page](setting:prayer_display) выберите \"fard_only\" или \"fard_with_sunnah\"."
+},
+{
+"query": "Как показывать необязательные сунны?",
+"response": "В [App settings](section:app_settings) включите [Show non-emphasized sunnahs too](setting:ghayr_muakkadah_prayers)."
+},
+{
+"query": "Как задать пол для молитвы?",
+"response": "Перейдите в [Prayer settings](section:prayer_settings) → [Prayer for](setting:gender) и выберите мужской или женский."
+},
+{
+"query": "Как изменить алфавит для транслитерации?",
+"response": "В [Prayer settings](section:prayer_settings) → [Transliteration alphabet](setting:transliteration_alphabet) выберите Latin, Cyrillic или None."
+},
+{
+"query": "Как изменить язык перевода?",
+"response": "В [Prayer settings](section:prayer_settings) → выберите [Translation of meaning](setting:translation_language)."
+},
+{
+"query": "Как изменить размер шрифта арабского текста?",
+"response": "В [Prayer settings](section:prayer_settings) → [Font sizes](section:font_size) → выберите [Arabic](setting:arabic_size)."
+},
+{
+"query": "Как изменить размер шрифта транслитерации?",
+"response": "В [Prayer settings](section:prayer_settings) → [Font sizes](section:font_size) → выберите [Transliteration](setting:text_size)."
+},
+{
+"query": "Как изменить размер шрифта перевода?",
+"response": "В [Prayer settings](section:prayer_settings) → [Font sizes](section:font_size) → выберите [Meaning](setting:meaning_size)."
+},
+{
+"query": "Как изменить размер шрифта подзаголовка комментариев?",
+"response": "В [Prayer settings](section:prayer_settings) → [Font sizes](section:font_size) → выберите [Comments](setting:subtitle_size)."
+},
+{
+"query": "Что такое функция «Кибла»?",
+"response": "Функция «Кибла» показывает направление молитвы в зависимости от вашего местоположения.\nПодробнее: [Qibla – direction of prayer](article:about_qibla)."
+},
+{
+"query": "Как включить расписание молитв в приложении?",
+"response": "В [Prayer time](section:prayer_time) → включите [Enable prayer times](setting:location)."
+},
+{
+"query": "Как настроить параметры расчёта времени молитв?",
+"response": "В [Prayer time](section:prayer_time) → откройте [Calculation settings](setting:prayer_time_settings) и настройте по необходимости."
+},
+{
+"query": "Как зайти в настройки уведомлений?",
+"response": "Откройте [Notification settings](section:notification_settings)."
+},
+{
+"query": "Как пройти викторину «Что такое намаз?»?",
+"response": "В [Getting started](section:general) → нажмите [Quiz: What is Namaz?](quiz:namaz_quiz)."
+},
+{
+"query": "Как пройти викторину «Поняли ли вы категории?»?",
+"response": "В [Getting started](section:general) → нажмите [Did you understand the categories?](quiz:prayer_categories_quiz)."
+},
+{
+"query": "Как пройти викторину «Ключ к молитве»?",
+"response": "В [Prayer rules](section:prayer_rules) → нажмите [Key to prayer](quiz:taharah_key)."
+},
+{
+"query": "Как начать викторину по вуду?",
+"response": "В [Taharah: physical and ritual purification](section:taharah_haqiqi) → нажмите [Fard and sunnah in wudu](quiz:performing_wudu)."
+},
+{
+"query": "Как начать викторину по гусль?",
+"response": "В [Taharah: physical and ritual purification](section:taharah_haqiqi) → нажмите [Fard and sunnah in ghusl](quiz:performing_ghusl)."
+},
+{
+"query": "Как наверстать пропущенные молитвы?",
+"response": "Перейдите во вкладку «Обучение» > «Правила молитвы» и нажмите «Как наверстать пропущенные молитвы?»."
+},
+{
+"query": "Где найти статью об удалении физических нечистот?",
+"response": "См. «Как удалить физические нечистоты»: [How to remove physical impurities](article:removing_impurities)"
+},
+{
+"query": "Рекомендуйте приложения для изучения арабского алфавита",
+"recommended_items": [
+{
+"id": "joode",
+"title": "Joode: арабский алфавит за 20 минут",
+"url": "[Joode: арабский алфавит за 20 минут](https://apps.apple.com/us/app/id1138728895)"
+},
+{
+"id": "thani",
+"title": "Thani: учимся читать на арабском",
+"url": "[Thani: учимся читать на арабском](https://apps.apple.com/us/app/id1138728895?platform=iphone)"
+},
+{
+"id": "readar",
+"title": "Приложение Read Arabic",
+"url": "[Приложение Read Arabic](https://apps.apple.com/app/id1364988718?platform=iphone)"
+},
+{
+"id": "online_course",
+"title": "iSyllabus: лучший курс",
+"url": "[iSyllabus: лучший курс](https://www.isyllabus.org/)"
+}
+]
+},
+{
+"query": "Рекомендуйте книги для углублённого изучения ислама",
+"recommended_items": [
+{
+"id": "quran_beheld",
+"title": "The Quran Beheld",
+"url": "[The Quran Beheld](https://www.quranbeheld.com/)"
+},
+{
+"id": "seerah_book",
+"title": "Muhammad (ﷺ): His Life Based on the Earliest Sources",
+"url": "[Muhammad (ﷺ): His Life Based on the Earliest Sources](https://bookstore.zaytuna.edu/products/muhammad-his-life-based-on-the-earliest-sources)"
+},
+{
+"id": "forty_principles",
+"title": "The Forty Principles of the Religion",
+"url": "[The Forty Principles of the Religion](https://www.meccabooks.com/products/al-ghazali-s-forty-principles-of-the-religion-al-arba-in-fi-usul-ad-din)"
+},
+{
+"id": "fiqh_akbar",
+"title": "Al-Fiqh al-Akbar Explained",
+"url": "[Al-Fiqh al-Akbar Explained](https://www.meccabooks.com/products/imam-abu-hanifa-s-al-fiqh-al-akbar-explained)"
+},
+{
+"id": "ascent",
+"title": "Ascent to Felicity",
+"url": "[Ascent to Felicity](https://www.whitethreadpress.com/products/ascent-to-felicity)"
+}
+]
+},
+{
+"query": "Какой фонд для пожертвований рекомендован в приложении?",
+"recommended_items": [
+{
+"id": "ghaza_charity",
+"title": "Palestine Emergency Appeal",
+"url": "[Palestine Emergency Appeal](https://campaigns.givebrite.com/fundraiser/oneummah-palestine-emergency-smile2jannah)"
+}
+]
+},
+{
+"query": "На какие соцсети стоит подписаться?",
+"recommended_items": [
+{
+"id": "youtube",
+"title": "Канал YouTube",
+"url": "[Канал YouTube](link:youtube)"
+},
+{
+"id": "telegram",
+"title": "Канал Telegram",
+"url": "[Канал Telegram](link:telegram)"
+},
+{
+"id": "readar",
+"title": "Аккаунт Twitter",
+"url": "[Аккаунт Twitter](link:readar)"
+}
+]
+},
+{
+"query": "Где узнать больше о приложении и его разработчиках?",
+"recommended_items": [
+{
+"id": "about_us",
+"title": "О нас",
+"url": "[О нас](article:about_us)"
+}
+]
+},
+{
+"query": "Где можно прочитать про обязательные молитвы (фард)?",
+"recommended_items": [
+{
+"id": "fard_prayers",
+"title": "Обязательные молитвы (фард)",
+"url": "[Обязательные молитвы (фард)](article:fard_prayers)"
+}
+]
+},
+{
+"query": "Рекомендуйте материалы по категориям молитв",
+"recommended_items": [
+{
+"id": "action_categories",
+"title": "Категории действий",
+"url": "[Категории действий](article:action_categories)"
+},
+{
+"id": "prayer_categories",
+"title": "Типы молитв",
+"url": "[Типы молитв](article:prayer_categories)"
+}
+]
+},
+{
+"query": "Рекомендуйте статьи о правилах молитвы",
+"recommended_items": [
+{
+"id": "prayer_essentials",
+"title": "Основы молитвы: шурут и аркан",
+"url": "[Основы молитвы: шурут и аркан](article:prayer_essentials)"
+},
+{
+"id": "prayer_conditions",
+"title": "Шурут: предпосылки для валидности",
+"url": "[Шурут: предпосылки для валидности](article:prayer_conditions)"
+},
+{
+"id": "prayer_integrals",
+"title": "Аркан: обязательные элементы молитвы",
+"url": "[Аркан: обязательные элементы молитвы](article:prayer_integrals)"
+}
+]
+},
+{
+"query": "Какая статья объясняет расписание молитв?",
+"recommended_items": [
+{
+"id": "prayer_times",
+"title": "Расписание молитв",
+"url": "[Расписание молитв](article:prayer_times)"
+}
+]
+},
+{
+"query": "Где найти руководство по очищению перед молитвой?",
+"recommended_items": [
+{
+"id": "taharah_intro",
+"title": "Тахара: очищение перед молитвой",
+"url": "[Тахара: очищение перед молитвой](article:taharah_intro)"
+}
+]
+},
+{
+"query": "Рекомендуйте статьи о физическом очищении",
+"recommended_items": [
+{
+"id": "physical_impurities",
+"title": "Физические нечистоты",
+"url": "[Физические нечистоты](article:physical_impurities)"
+},
+{
+"id": "removing_impurities",
+"title": "Как удалить физические нечистоты",
+"url": "[Как удалить физические нечистоты](article:removing_impurities)"
+}
+]
+},
+{
+"query": "Где можно прочитать о вуду и гусль?",
+"recommended_items": [
+{
+"id": "wudu",
+"title": "Вуду — омовение",
+"url": "[Вуду — омовение](article:wudu)"
+},
+{
+"id": "ghusl",
+"title": "Гусль — полное омовение",
+"url": "[Гусль — полное омовение](article:ghusl)"
+}
+]
+},
+{
+"query": "Где можно узнать о сухом омовении?",
+"recommended_items": [
+{
+"id": "tayammum",
+"title": "Таяммум — сухое омовение",
+"url": "[Таяммум — сухое омовение](article:tayammum)"
+}
+]
+},
+{
+"query": "Какая вода подходит для вуду и гусль?",
+"recommended_items": [
+{
+"id": "water",
+"title": "Подходящая вода для вуду и гусль",
+"url": "[Подходящая вода для вуду и гусль](article:water)"
+}
+]
+},
+{
+"query": "Где можно прочитать об очистке после туалета?",
+"recommended_items": [
+{
+"id": "istinja",
+"title": "Истинджа — очистка после туалета",
+"url": "[Истинджа — очистка после туалета](article:istinja)"
+}
+]
+},
+{
+"query": "Какие викторины помогут мне усвоить очищение?",
+"recommended_items": [
+{
+"id": "performing_wudu",
+"title": "Фард и сунна в вуду",
+"url": "[Фард и сунна в вуду](quiz:performing_wudu)"
+},
+{
+"id": "performing_ghusl",
+"title": "Фард и сунна в гусль",
+"url": "[Фард и сунна в гусль](quiz:performing_ghusl)"
+}
+]
+},
+{
+"query": "Какие викторины доступны для проверки знаний веры?",
+"recommended_items": [
+{
+"id": "say_shahada",
+"title": "Викторина: произнеси шахаду",
+"url": "[Викторина: произнеси шахаду](quiz:say_shahada)"
+},
+{
+"id": "islam_imaan_ihsan_quiz",
+"title": "Викторина: Ислам, Иман и Ихсан",
+"url": "[Викторина: Ислам, Иман и Ихсан](quiz:islam_imaan_ihsan_quiz)"
+}
+]
+},
+{
+"query": "Какая викторина объясняет понятие намаз?",
+"recommended_items": [
+{
+"id": "namaz_quiz",
+"title": "Викторина: Что такое намаз?",
+"url": "[Викторина: Что такое намаз?](quiz:namaz_quiz)"
+}
+]
+},
+{
+"query": "Где найти материалы о дуа?",
+"recommended_items": [
+{
+"id": "dua",
+"title": "Как делать дуа",
+"url": "[Как делать дуа](article:dua)"
+}
+]
+},
+{
+"query": "Рекомендуйте актуальные статьи по основам молитвы",
+"recommended_items": [
+{
+"id": "fard_prayers",
+"title": "Обязательные молитвы (фард)",
+"url": "[Обязательные молитвы (фард)](article:fard_prayers)"
+},
+{
+"id": "prayer_categories",
+"title": "Типы молитв",
+"url": "[Типы молитв](article:prayer_categories)"
+}
+]
+},
+{
+"query": "Как выбрать определённый диапазон аятов Корана для воспроизведения?",
+"response": "Перейдите во вкладку «Listen and Memorize» и нажмите **Select a range to play**.\nТакже можно воспользоваться [Select a range to play](feature:range_selector)."
+},
+{
+"query": "Где найти мои сохранённые записи чтения?",
+"response": "Во вкладке «Listen and Memorize» выберите **My recordings**.\nИли откройте [My recordings](collection:recordings)."
+},
+{
+"query": "Как принять участие в исследовании персонализированных рекомендаций?",
+"response": "Перейдите во вкладку «Pray» → Recommended activity и ответьте на опрос **Get personalized recommendations**.\nНажмите [Get personalized recommendations](questionnaire:recommender_study_consent)."
+},
+{
+"query": "Как просмотреть помеченные как избранные молитвы?",
+"response": "Нажмите ⭐️ рядом с любой молитвой, затем перейдите в раздел **Favourites** во вкладке «Pray».\nИли откройте [Favourites](collection:favourites)."
+}
+]

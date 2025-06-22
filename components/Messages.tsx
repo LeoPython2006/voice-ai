@@ -3,13 +3,31 @@ import { cn } from "@/utils";
 import { useVoice } from "@humeai/voice-react";
 import Expressions from "./Expressions";
 import { AnimatePresence, motion } from "framer-motion";
-import { ComponentRef, forwardRef } from "react";
+import { ComponentRef, forwardRef, useEffect, useRef } from "react";
+import { detectLanguage } from "@/utils/languageDetector";
 
 const Messages = forwardRef<
   ComponentRef<typeof motion.div>,
   Record<never, never>
 >(function Messages(_, ref) {
-  const { messages } = useVoice();
+  const { messages, sendSessionSettings } = useVoice();
+  const lastLang = useRef<string>("eng");
+
+  useEffect(() => {
+    const last = messages[messages.length - 1];
+    if (last && last.type === "user_message" && last.message.content) {
+      detectLanguage(last.message.content).then((code) => {
+        if (code && code !== lastLang.current) {
+          lastLang.current = code;
+          if (code === "rus") {
+            sendSessionSettings({ system_prompt: "Продолжай диалог на русском языке." });
+          } else {
+            sendSessionSettings({ system_prompt: "Continue the conversation in the language used by the user." });
+          }
+        }
+      });
+    }
+  }, [messages, sendSessionSettings]);
 
   return (
     <motion.div
@@ -21,7 +39,7 @@ const Messages = forwardRef<
         className={"max-w-2xl mx-auto w-full flex flex-col gap-4 pb-24"}
       >
         <AnimatePresence mode={"popLayout"}>
-          {messages.map((msg, index) => {
+          {messages.map((msg: any, index: number) => {
             if (
               msg.type === "user_message" ||
               msg.type === "assistant_message"
