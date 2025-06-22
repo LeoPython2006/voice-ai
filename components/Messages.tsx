@@ -38,7 +38,7 @@ const Messages = forwardRef<
         className={"max-w-2xl mx-auto w-full flex flex-col gap-4 pb-24"}
       >
         <AnimatePresence mode={"popLayout"}>
-          {messages.map((msg, index) => {
+          {messages.map((msg: any, index: number) => {
             if (
               msg.type === "user_message" ||
               msg.type === "assistant_message"
