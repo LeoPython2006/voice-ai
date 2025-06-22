@@ -16,15 +16,16 @@ const Messages = forwardRef<
   useEffect(() => {
     const last = messages[messages.length - 1];
     if (last && last.type === "user_message" && last.message.content) {
-      const code = detectLanguage(last.message.content);
-      if (code && code !== lastLang.current) {
-        lastLang.current = code;
-        if (code === "rus") {
-          sendSessionSettings({ system_prompt: "Продолжай диалог на русском языке." });
-        } else {
-          sendSessionSettings({ system_prompt: "Continue the conversation in the language used by the user." });
+      detectLanguage(last.message.content).then((code) => {
+        if (code && code !== lastLang.current) {
+          lastLang.current = code;
+          if (code === "rus") {
+            sendSessionSettings({ system_prompt: "Продолжай диалог на русском языке." });
+          } else {
+            sendSessionSettings({ system_prompt: "Continue the conversation in the language used by the user." });
+          }
         }
-      }
+      });
     }
   }, [messages, sendSessionSettings]);
 
